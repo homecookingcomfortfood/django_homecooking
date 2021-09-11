@@ -1,0 +1,86 @@
+<div class="col">
+        <img src="/static/images/IMG_0893.jpg" name="img" width="170" height="350">
+        <h4 class = "font-italic my-2"> Green Apple Smoothie </h4>
+
+    </div><!-- /.col-lg-4 -->
+    </div>
+    </div>
+
+<div class="Container text-center">
+    <div class="row my-2">
+      <div class="col">
+      <img src="/static/images/IMG_0887.jpg" name="img" width="350" height="400"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+      <h4 class = "font-italic my-2"> Rasberry Apricot Smoothie</h4>
+      </div>
+
+    </div><!-- /.col-lg-4 -->
+</div>
+
+<div class="Container text-center">
+    <div class="row my-2">
+      <div class="col">
+      <img src="/static/images/IMG_0892.jpg" name="img" width="170" height="350"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+      <h4 class = "font-italic my-2"> Papaya Smoothie</h4>
+      </div>
+
+      <div class="col">
+      <img src="/static/images/IMG_0886.jpg" name="img" width="170" height="350"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+      <h4 class = "font-italic my-2"> Apple Beetroot Smoothie</h4>
+      </div>
+</div>
+    </div>
+
+
+<div class="Container text-center">
+    <div class="row my-2">
+        <div class="col">
+        <img src="/static/images/IMG_0884.jpg" name="img" width="350" height="400"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+        <h4 class = "font-italic my-2">Green Smoothie</h4>
+
+    </div><!-- /.col-lg-4 -->
+</div>
+    </div>
+
+ <img src="{{ s.image.url }}">
+
+ {% for smoothie in object_list%}
+    <img src="{{smoothie.image.url}}" height="70%" width="70%" class="img-thumbnail">
+    <li><a href="{% url 'Receipe-detail' smoothie.pk %}">{{smoothie.name}}<br/>{{smoothie.desc}}</li>
+{% endfor %}
+
+ <li><a href="{% url 'Receipe-detail' smoothie.pk %}">{{smoothie.name}}</li>
+<div class="Container text-center">
+    <div class="row my-2">
+      <div class="col">
+      <img src="/static/images/IMG_0879.jpg" name="img" width="170" height="350"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+      <h4 class = "font-italic my-2"> Apple Oatmeal Smoothie </h4>
+      </div>
+
+     <div class="col">
+        <img src="/static/images/IMG_0881.jpg" name="img" width="170" height="350" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+        <h4 class = "font-italic my-2"> Green Beauty</h4>
+
+    </div><!-- /.col-lg-4 -->
+
+</div>
+    </div>
+
+<div class="Container text-center">
+    <div class="row my-2">
+      <div class="col">
+      <img src="/static/images/IMG_0872.jpeg" name="img" width="350" height="400"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+      <h4 class = "font-italic my-2"> Smoothie Bowl </h4>
+      </div>
+</div>
+    </div>
+
+<div class="Container text-center">
+    <div class="row my-2">
+       <div class="col">
+        <img src="/static/images/IMG_0883.jpg" name="img" width="350" height="400"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">
+        <h4 class = "font-italic my-2"> Apricot Smoothie </h4>
+
+    </div><!-- /.col-lg-4 -->
+</div>
+    </div>
+        
